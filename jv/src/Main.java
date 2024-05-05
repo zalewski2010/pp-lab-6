@@ -37,9 +37,9 @@ public class Main {
     System.out.println(manager.getName() + " has code: " + manager.hashCode());
     
         // Porównywanie
-    System.out.println(worker1.getName() + " equals " + worker2.getName() + "? " + worker1.equals(worker2));
-    System.out.println(worker1.getName() + " equals " + worker3.getName() + "? " + worker1.equals(worker3));
-    System.out.println(worker1.getName() + " equals " + manager.getName() + "? " + worker1.equals(manager));
+        System.out.println(worker1.getName() + " equals " + worker2.getName() + "? " + worker1.equals(worker2)); 
+        System.out.println(worker1.getName() + " equals " + worker3.getName() + "? " + worker1.equals(worker3)); 
+        System.out.println(worker1.getName() + " equals " + manager.getName() + "? " + worker1.equals(manager));
 
     }
 
