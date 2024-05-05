@@ -40,4 +40,21 @@ public abstract class Employee implements Employable {
         return position;
     }
 
+    @Override
+    public int hashCode() {
+        return id;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || !(obj instanceof Employee)) {
+            return false;
+        }
+        Employee other = (Employee) obj;
+        return this.id == other.id;
+    }
 }
+
